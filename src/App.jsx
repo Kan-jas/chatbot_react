@@ -1,5 +1,5 @@
 import React from "react";
-// できてんのかよ
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
