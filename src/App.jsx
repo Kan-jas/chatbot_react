@@ -1,4 +1,7 @@
 import React from "react";
+import defaultDataset from "./dataset";
+import "./assets/styles/styles.css";
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -6,14 +9,14 @@ export default class App extends React.Component {
       answers: [],
       chats: [],
       currentId: "init",
-      dataset: {},
+      dataset: defaultDataset,
       open: false,
     };
   }
   render() {
     return (
       <section className="c-section">
-        <div className="c-box">{this.state.currentId}</div>
+        <div className="c-box"></div>
       </section>
     );
   }
