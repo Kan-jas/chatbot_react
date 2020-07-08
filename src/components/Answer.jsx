@@ -1,15 +1,7 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
+import React from 'react'
 
-const useStyles = makeStyles((theme) => ({
-  root: {},
-}));
+const Answer = () =>{
 
-const Answer = () => {
-  // プルリク
-  //   const classes = useStyles();
-  return <Button variant="contained">Default</Button>;
-};
+}
 
-export default Answer;
+export default Answer
