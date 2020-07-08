@@ -1,7 +1,7 @@
 import React from "react";
 import defaultDataset from "./dataset";
 import "./assets/styles/styles.css";
-import { AnswersList } from "./components/index";
+import {ANswersList} from "./components/index"
 
 export default class App extends React.Component {
   constructor(props) {
@@ -18,7 +18,7 @@ export default class App extends React.Component {
     return (
       <section className="c-section">
         <div className="c-box">
-          <AnswersList />
+          <ANswersList/>
         </div>
       </section>
     );

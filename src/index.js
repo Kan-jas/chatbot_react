@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react";//これでどう
 import ReactDOM from "react-dom";
 import "./assets/styles/index.css";
 import App from "./App";
